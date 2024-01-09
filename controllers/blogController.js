@@ -64,7 +64,7 @@ exports.getAllPost = async(req,res)=>{
 
         // throw a success message
         res.status(200).json({
-            message:`there are ${allPost.length} availabe`,
+            message:`there are ${allPost.length} post availabe`,
             data:allPost
         })
         
